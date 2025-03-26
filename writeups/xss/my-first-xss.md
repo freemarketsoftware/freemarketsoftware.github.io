@@ -1,5 +1,5 @@
 
-# Hash based XSS on an Apache Sling WebApp
+# Hash XSS
 
 During my early start in bug bounty, I ended up researching on an Apache Sling application serving web content for customers, it was possible for them to subscribe and find out offers that benefit them.
 
