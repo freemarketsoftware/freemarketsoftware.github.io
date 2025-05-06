@@ -1,5 +1,11 @@
 <body>
 <script>
    console.log(window.opener)
+    function sendMessage() {
+      if (window.opener) {
+        window.opener.postMessage('Hello from child!', '*');
+      }
+    }
+   sendMessage()
 </script>
 </body>
